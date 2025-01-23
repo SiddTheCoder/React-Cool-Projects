@@ -1,7 +1,7 @@
 import { useCallback, useState, useEffect, useRef } from "react"
 
 
-function App(){
+export default function App(){
 
     //Creating states for variables management
     const [passlength,setPassLength] = useState(7)
@@ -106,4 +106,3 @@ function App(){
   )
 }
 
-export default App
